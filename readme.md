@@ -45,21 +45,8 @@ Example Line:
 
 - Required Keys: instruction, input, output
 - Optional Key: task (This is highly recommended for evaluation, as it routes the example to the correct metric calculation).
- The data folder contains only the sample data.
-Our paper uses a standard 80/10/10 split for the train, validation, and test sets.
-
-## ⚙️ Installation
-
-Create and activate a Python virtual environment:
-```bash
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-```
-
-Install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
+-The data folder contains only the sample data.
+We used a standard 80/10/10 split for the train, validation, and test sets.
 
 ## 🚀 Training
 
@@ -110,4 +97,4 @@ Metrics Computed:
 - NER: Precision, Recall, and F1-score
 - Summarization: ROUGE-1, ROUGE-2, and ROUGE-L
 - Medical QA: Exact match accuracy and token-level F1-score
--Evaluated the speed , memory usage, peakvram , training throughput , training time .
+-Evaluated the Speed , Memory usage, Peak Vram , Training Throughput ,Training time 
