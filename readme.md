@@ -8,7 +8,7 @@ This repository provides code and examples for fine-tuning the meta-llama/Meta-L
 - Salt Composition Extraction
 - Medical Question Answering (QA)
 
-The methodology and hyperparameters are designed to be consistent with those described in our accompanying paper.
+
 
 ## 📂 Project Structure
 
@@ -45,7 +45,7 @@ Example Line:
 
 - Required Keys: instruction, input, output
 - Optional Key: task (This is highly recommended for evaluation, as it routes the example to the correct metric calculation).
-
+ The data folder contains only the sample data.
 Our paper uses a standard 80/10/10 split for the train, validation, and test sets.
 
 ## ⚙️ Installation
