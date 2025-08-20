@@ -1,0 +1,7 @@
+[
+{"task":"ner","instruction":"Extract drug names and dosages.","input":"Metformin 500mg was prescribed for type 2 diabetes.","output":[{"drug":"Metformin","dosage":"500mg","condition":["type 2 diabetes"]}]},
+{"task":"chatbot","instruction":"You are a medical assistant. Respond to the patient's query.","input":"I have had a sore throat for three days. What should I do?","output":"It may be a viral infection. Drink fluids, rest, and consult a doctor if symptoms persist or worsen."},
+{"task":"summarization","instruction":"Summarize the following clinical text.","input":"The patient presented with severe chest pain and was diagnosed with myocardial infarction. Immediate PCI was performed.","output":"Patient suffered a myocardial infarction and was treated with PCI."},
+{"task":"salt_comp","instruction":"Find the salt and dosage from the medicine name.","input":"Augmentin 625 Duo Tablet","output":{"brand":"Augmentin 625 Duo","salt":"Amoxicillin + Clavulanic Acid","dosage":"625mg"}},
+{"task":"med_qa","instruction":"Answer the medical question.","input":"Abstract: ACE inhibitors are commonly used in patients with hypertension. Question: What condition are ACE inhibitors used for?","output":"They are used for treating hypertension."}
+]
